@@ -67,3 +67,8 @@ execute 'run command' do
   command 'setenforce 0'
   action :run
 end
+execute 'run command' do
+  command 'service httpd restart'
+  action :run
+end
+
